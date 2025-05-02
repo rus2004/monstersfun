@@ -263,8 +263,10 @@
    section_end()!
 
    section_start("", 501637694)!
-   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTG9hZFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cHM6Ly93d3cubW9uc3RlcnMuZnVuL3JlZi9YVkgyUlQzMSIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IlJlZmVycmVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyIsImlzX2RlZiI6dHJ1ZX1dfQ==*/
-   _load("https://www.monsters.fun/ref/XVH2RT31", "", false)!
+   /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwidWUiOiIwIiwidXNwIjoiMCIsImQiOlt7ImlkIjoiTG9hZFVybCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoie3tyZWZfbGluayh3aXRoIGh0dHBzOi8vd3d3Lm1vbnN0ZXJzLmZ1bi9yZWYvKX19IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiUmVmZXJyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfV19*/
+   RS("ref_link(with https://www.monsters.fun/ref/)", false, false)!
+   RESOURCE_947608 = _result().get()
+   _load(RESOURCE_947608, "", false)!
    section_end()!
 
    section_start("", 583950553)!
